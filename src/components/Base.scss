@@ -1,0 +1,27 @@
+.category {
+  @apply text-white px-2 py-1 rounded-md;
+}
+
+.category.work {
+  @apply bg-cyan-700;
+}
+
+.describe {
+  @apply font-normal;
+
+  color: #856f59;
+}
+
+.time {
+  @apply tracking-wide;
+
+  color: #baa38d;
+}
+
+button.normal_btn {
+  @apply rounded-md text-white py-2 px-4 w-36;
+}
+
+button.text_btn {
+  @apply text-xl font-bold;
+}

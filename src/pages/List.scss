@@ -1,0 +1,35 @@
+.event_item {
+  @apply rounded-md m-8 p-8 flex items-center cursor-pointer w-auto;
+
+  background-color: #fff;
+
+  .category {
+    @apply mr-3;
+  }
+
+  h3.describe {
+    @apply overflow-hidden whitespace-nowrap mr-3;
+  }
+
+  .time {
+    @apply flex justify-center items-center whitespace-nowrap;
+
+    .icon {
+      @apply mr-2;
+    }
+  }
+}
+
+.event_item:first-child {
+  @apply mt-0;
+}
+
+.event_item:last-child {
+  @apply mb-0;
+}
+
+.event_item:hover {
+  @apply shadow-xl;
+
+  box-shadow: #553719;
+}

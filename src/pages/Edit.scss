@@ -1,0 +1,31 @@
+.edit_container {
+  @apply mx-8;
+}
+
+.datepicker,
+.datepicker:hover,
+.datepicker:focus-visible,
+.select,
+.select:hover,
+.select:focus-visible,
+.textarea,
+.textarea:hover,
+.textarea:focus-visible {
+  @apply rounded-md shadow-none bg-white;
+
+  border: 2px solid #85776a !important;
+  outline: none;
+}
+
+.select-warp {
+  @apply flex justify-between mt-3;
+
+  .select,
+  .datepicker {
+    @apply w-full;
+  }
+
+  .select {
+    @apply mr-3;
+  }
+}

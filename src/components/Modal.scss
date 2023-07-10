@@ -1,0 +1,54 @@
+.modal_container {
+  @apply w-full h-full left-0 top-0 fixed bg-stone-950/70 flex justify-center items-center;
+
+  .modal {
+    @apply rounded-md bg-white shadow-xl flex flex-col p-8 items-start;
+
+    .close {
+      @apply items-end p-0 m-0 w-max self-end;
+
+      .icon {
+        @apply w-8 h-8;
+
+        color: #553719;
+      }
+    }
+
+    h3.describe {
+      @apply w-80 my-5;
+    }
+
+    .time {
+      @apply flex items-center self-end mb-4;
+
+      .icon {
+        @apply mr-2;
+
+        color: #baa38d;
+      }
+    }
+
+    hr {
+      @apply w-full border-dashed;
+
+      height: 1px;
+      background-color: #553719;
+    }
+
+    .modify {
+      @apply w-full flex justify-between;
+
+      .edit {
+        @apply mx-2 my-4;
+
+        color: #553719;
+      }
+
+      .dele {
+        @apply mx-2 my-4;
+
+        color: #c02e2e;
+      }
+    }
+  }
+}

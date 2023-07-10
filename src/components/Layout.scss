@@ -1,0 +1,32 @@
+.layout {
+  @apply w-screen h-screen flex py-20 px-40 overflow-hidden;
+
+  background-color: #f4f2f0;
+
+  .left,
+  .right {
+    @apply flex-1;
+  }
+
+  .left {
+    @apply flex justify-start items-end flex-col;
+
+    button {
+      @apply mb-3;
+
+      background-color: #553719;
+    }
+  }
+
+  .right {
+    button {
+      background-color: #cfa471;
+    }
+  }
+
+  .content {
+    @apply overflow-scroll;
+
+    flex: 2;
+  }
+}
